@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сауна "Відпочинок і релакс"</title>
+    <style>
+        /* Загальні стилі */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6ccb2;
+            background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png'); /* Дерев'яна текстура */
+            color: #333;
+        }
+        header {
+            background-color: #8b5a2b;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #a0522d;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #8b4513;
+            border-radius: 5px;
+        }
+        
+        .container {
+            padding: 20px;
+        }
+        
+        /* Розділ про нас */
+        .about {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        /* Розділ "Меню товарів" */
+        .menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .menu-item {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .menu-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .menu-item h3 {
+            margin: 10px 0;
+            color: #8b5a2b;
+        }
+        .menu-item p {
+            color: #777;
+        }
+        
+        /* Галерея */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Підвал */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #8b5a2b;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Шапка сайту -->
+    <header>
+        <h1>Сауна "Відпочинок і релакс"</h1>
+        <p>Ласкаво просимо в наш затишний куточок спокою та комфорту!</p>
+    </header>
+
+    <!-- Навігація -->
+    <nav>
+        <a href="#about">Про нас</a>
+        <a href="#menu">Меню товарів</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#contact">Контакти</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- Розділ Про нас -->
+        <section id="about" class="about">
+            <h2>Про нас</h2>
+            <p>Наша сауна пропонує вам можливість повністю розслабитися та відпочити в затишній атмосфері з комфортом і приватністю. Сучасні зручності та прекрасна обстановка чекають на вас!</p>
+        </section>
+
+        <!-- Розділ Меню товарів -->
+        <section id="menu" class="menu">
+            <h2>Наше меню</h2>
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/250x150" alt="Ароматний чай">
+                <h3>Ароматний чай</h3>
+                <p>Відкрийте для себе різноманіття чайних традицій у нашій сауні.</p>
+                <p><strong>Ціна: 150 грн.</strong></p>
+            </div>
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/250x150" alt="Трав'яні збори">
+                <h3>Трав'яні збори</h3>
+                <p>Корисні та розслаблюючі трав'яні чаї для вашого задоволення.</p>
+                <p><strong>Ціна: 200 грн.</strong></p>
+            </div>
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/250x150" alt="Віники">
+                <h3>Віники</h3>
+                <p>Березові, дубові та евкаліптові віники для сауни.</p>
+                <p><strong>Ціна: від 300 грн.</strong></p>
+            </div>
+            <!-- Додайте додаткові пункти меню тут -->
+        </section>
+
+        <!-- Розділ Галерея -->
+        <section id="gallery" class="gallery">
+            <h2>Галерея</h2>
+            <img src="https://via.placeholder.com/300x200" alt="Фото сауни 1">
+            <img src="https://via.placeholder.com/300x200" alt="Фото сауни 2">
+            <img src="https://via.placeholder.com/300x200" alt="Фото сауни 3">
+            <img src="https://via.placeholder.com/300x200" alt="Фото сауни 4">
+            <!-- Замініть посилання на справжні фото вашої сауни -->
+        </section>
+
+    </div>
+
+    <!-- Контакти -->
+    <footer id="contact">
+        <p>Контакти: +380 (99) 123-45-67 | sauna@example.com</p>
+        <p>&copy; 2024 Сауна "Відпочинок і релакс"</p>
+    </footer>
+
+</body>
+</html>
